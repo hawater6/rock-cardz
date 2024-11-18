@@ -1,0 +1,59 @@
+.wrapper {
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.masthead {
+
+    background: rgb(230, 221, 221);
+  
+    height: 5em;
+
+    width: 100%;
+  
+}
+  
+.centeredText {
+  
+    text-align: center;
+  
+}
+  
+.site-title {
+  
+    color: white;
+  
+    font-family: RockFont;
+  
+    font-size: 80px;
+  
+    font-weight: bolder;
+  
+}
+
+@font-face {
+
+    font-family: RockFont;
+  
+    src: url("Funkrocker.otf");
+  
+}
+  
+h4 {
+  
+    font-family: RockFont;
+    color: white;
+  
+}
+
+/*@media screen(max-width: ) {
+    
+}
+*/  
